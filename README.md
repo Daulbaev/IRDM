@@ -26,7 +26,7 @@ from functools import partial
 
 n_nodes = 10  # if you want 10 grid points
 odeint_chebyshev = partial(odeint_chebyshev_func, n_nodes=n_nodes)
-# ... Then use odeint_chebyshev as odeint in torchdiffeq
+# ... And use odeint_chebyshev as odeint in torchdiffeq
 ```
 
 Code for experiments is located in subfolders of `./experiments`. Please, see README files in these subfolders for instructions.
